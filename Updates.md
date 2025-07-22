@@ -101,7 +101,7 @@ img_transforms = {
 ## Data Analysis 
 For in-depth metrics, validation trends, and visualization of training dynamics, see the full analysis here:
 
--> [View Full Data Analysis](./data_analysis.md)
+-> [View Full Data Analysis](data/data_analysis.md)
 
 This includes:
 - GLCM texture statistics
