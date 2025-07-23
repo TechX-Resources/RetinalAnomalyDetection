@@ -6,6 +6,7 @@ Tracking experiments and model performance over time.
 
 ## Versions
 
+[⬅ To Training Logs](trainOutputs/)
 ### **v1**
 | Epoch | Train Loss | Train Acc | Val Loss | Val Acc |
 |-------|------------|-----------|----------|---------|
