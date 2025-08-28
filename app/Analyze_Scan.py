@@ -244,7 +244,7 @@ def main():
             gradcam_img_np, pred_idx = generate_gradcam(model, input_tensor, device, original_image=img)
             gradcam_pil = Image.fromarray(gradcam_img_np)
             gradcam_disp = resize_for_display(gradcam_pil)
-            st.image(gradcam_disp, use_container_width=False, caption=f"Predicted: {labels[pred_idx-1]}")
+            st.image(gradcam_disp, use_container_width=False, caption=f"Predicted: {labels[pred_idx]}")
 
     # Results below images, full width
     st.markdown("---")
