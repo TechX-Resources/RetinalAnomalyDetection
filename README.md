@@ -208,7 +208,7 @@ pip install -r requirements.txt
 
 #### 3. Application Running
 ```bash
-python main.app 
+python main.py
 ```
 ---
 
